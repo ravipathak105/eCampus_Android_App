@@ -1,0 +1,13 @@
+package com.myecampus.ravi.project_e_campus;
+
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+
+public class AdminContent extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_admin_content);
+    }
+}

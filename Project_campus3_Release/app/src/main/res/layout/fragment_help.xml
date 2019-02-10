@@ -1,0 +1,147 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#e1d6d6"
+    tools:context="com.myecampus.ravi.project_e_campus.Help">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <android.support.v7.widget.CardView
+        android:layout_margin="10dp"
+        app:cardCornerRadius="4dp"
+        android:id="@+id/helpcard"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thanks For Using This App"
+            android:textSize="18dp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#000"
+            android:fontFamily="serif-monospace"
+            android:textStyle="normal|bold"
+            android:textAllCaps="true" />
+        <TextView
+            android:layout_marginTop="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="We Are Happy To Help You"
+            android:textSize="16dp"
+            android:gravity="fill"
+            android:drawableEnd="@drawable/ic_action_happy"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#000"
+            android:fontFamily="serif-monospace"
+            android:textStyle="normal|bold"
+            android:textAllCaps="true" />
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="95dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Student Bot"
+            android:foregroundGravity="fill"
+            android:drawableStart="@drawable/ic_android_bot"
+            android:textSize="16dp"
+            android:gravity="fill"
+            android:textColor="#000"
+            android:fontFamily="serif-monospace"
+            android:textStyle="normal|bold"
+            android:textAllCaps="true" />
+        <TextView
+            android:layout_marginTop="150dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 1.If Mic is not working properly then go to device settings and in Apps find eCampus Application then allow permission for Microphone."
+            android:textSize="14dp"
+            android:gravity="fill"
+            android:textColor="#000"
+            android:fontFamily="serif-monospace"
+            android:textStyle="normal|bold"
+            android:textAllCaps="false" />
+        <TextView
+            android:layout_marginTop="228dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 2.Student Bot is currently in training period so it may not respond for all your desired answers.Sorry for Inconvenience."
+            android:textSize="14dp"
+            android:gravity="fill"
+            android:textColor="#000"
+            android:fontFamily="serif-monospace"
+            android:textStyle="normal|bold"
+            android:textAllCaps="false" />
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="310dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_pin_drop_loc"
+            android:text="Track College Location"
+            android:textSize="16dp"
+            android:gravity="fill"
+            android:textColor="#000"
+            android:fontFamily="serif-monospace"
+            android:textStyle="normal|bold"
+            android:textAllCaps="true" />
+        <TextView
+            android:layout_marginTop="375dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 1.Please turn on your location services/GPS."
+            android:textSize="14dp"
+            android:gravity="fill"
+            android:textColor="#000"
+            android:fontFamily="serif-monospace"
+            android:textStyle="normal|bold"
+            android:textAllCaps="false" />
+        <TextView
+            android:layout_marginTop="415dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 2.Go to device settings and in Apps find eCampus App then allow Location permission."
+            android:textSize="14dp"
+            android:gravity="fill"
+            android:textColor="#000"
+            android:fontFamily="serif-monospace"
+            android:textStyle="normal|bold"
+            android:textAllCaps="false" />
+        <TextView
+            android:layout_marginTop="475dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 3.On clicking Marker icon(Red One) then navigate option(Appears just after clicking on marker) you will get direction of SRMS college from your current location. "
+            android:textSize="14dp"
+            android:gravity="fill"
+            android:textColor="#000"
+            android:fontFamily="serif-monospace"
+            android:textStyle="normal|bold"
+            android:textAllCaps="false" />
+        <ImageView
+            android:layout_marginTop="560dp"
+            android:src="@drawable/thanks"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="120dp"
+            android:layout_height="90dp" />
+        <TextView
+            android:layout_marginTop="640dp"
+            android:layout_gravity="right"
+            android:textColor="#000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="~Ravi Pathak"
+            android:fontFamily="cursive"
+            android:textSize="18sp"
+            android:textAllCaps="false"
+            android:textStyle="normal|bold" />
+
+
+        </android.support.v7.widget.CardView>
+    </ScrollView>
+
+
+</ScrollView>

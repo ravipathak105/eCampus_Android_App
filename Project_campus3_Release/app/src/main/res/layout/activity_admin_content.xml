@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_admin_content"
+    android:layout_width="match_parent"
+    android:background="#e1d6d6"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.myecampus.ravi.project_e_campus.AdminContent">
+
+    <android.support.v7.widget.CardView
+        android:layout_margin="15dp"
+        app:cardCornerRadius="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <Button
+            android:layout_marginTop="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="College Notes"
+            android:drawableStart="@drawable/ic_action_notes"
+            android:textColor="@color/white"
+            android:background="@drawable/button"
+            />
+        <Button
+            android:layout_marginTop="200dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:drawableStart="@drawable/ic_action_magazine"
+            android:layout_height="wrap_content"
+            android:text="E-Magazine"
+            android:textColor="@color/white"
+            android:background="@drawable/button"
+            />
+        <Button
+            android:layout_marginTop="300dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:drawableStart="@drawable/ic_action_sched"
+            android:layout_height="wrap_content"
+            android:text="Schedule"
+            android:textColor="@color/white"
+            android:background="@drawable/button"
+            />
+        <Button
+            android:layout_marginTop="400dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_action_circular"
+            android:text="Circular"
+            android:textColor="@color/white"
+
+            android:background="@drawable/button"
+            />
+
+
+
+
+
+    </android.support.v7.widget.CardView>
+
+
+
+
+</LinearLayout>

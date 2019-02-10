@@ -1,0 +1,84 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#e1d6d6"
+    android:id="@+id/adminlogin"
+    android:orientation="vertical"
+    tools:context="com.myecampus.ravi.project_e_campus.RegistrationBtn">
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.v7.widget.CardView
+        android:layout_margin="10dp"
+        app:cardCornerRadius="10dp"
+        android:id="@+id/admincard"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#6c0808"
+        android:text="Admin Login"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="normal|bold"
+        android:textAllCaps="true"
+        android:fontFamily="serif-monospace" />
+        <TextView
+            android:layout_marginTop="100dp"
+            android:textSize="16dp"
+            android:textColor="#000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Admin Can Add/Delete Contents. "
+
+            />
+        <TextView
+            android:layout_marginTop="150dp"
+            android:textSize="16dp"
+            android:textColor="#000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Admin Can Access the Contents Stored in Database. "
+
+
+            />
+        <TextView
+            android:layout_marginTop="230dp"
+            android:textSize="16dp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Click On I Agree Button to Access As An Admin "
+
+
+            />
+        <Button
+            android:layout_marginTop="310dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+
+            android:textColor="@color/white"
+            android:background="@drawable/button"
+            android:drawableStart="@drawable/ic_action_tick"
+            android:text="I Agree"
+            android:id="@+id/agree" />
+
+        <TextView
+            android:layout_marginTop="400dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq"
+            android:textColor="@color/white"
+            />
+
+    </android.support.v7.widget.CardView>
+</ScrollView>

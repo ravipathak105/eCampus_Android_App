@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_gmail"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:background="#e1d6d6"
+    android:orientation="vertical"
+    tools:context="com.myecampus.ravi.project_e_campus.Gmail">
+
+    <android.support.v7.widget.CardView
+        android:layout_margin="20dp"
+        app:cardCornerRadius="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gmail"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imageView5" />
+    <TextView
+        android:layout_marginTop="200dp"
+        android:textSize="18dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:textColor="#830975"
+        android:layout_height="wrap_content"
+        android:text="Ravipathak105@gmail.com"
+
+        />
+    <TextView
+        android:layout_marginTop="250dp"
+        android:textSize="18dp"
+        android:textColor="#830975"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pathakravi436@gmail.com"
+
+        />
+    <TextView
+        android:layout_marginTop="300dp"
+        android:textSize="18dp"
+        android:textColor="#830975"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ecampus24@gmail.com"
+
+        />
+    </android.support.v7.widget.CardView>
+</ScrollView>

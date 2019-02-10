@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_aeronautics_club"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.myecampus.ravi.project_e_campus.AeronauticsClub">
+    <TextView
+        android:layout_marginTop="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shivendra Singh Yadav"
+
+        android:layout_gravity="center_horizontal"
+
+        android:textSize="25sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(Chair Person)"
+        android:layout_gravity="center_horizontal"
+        android:textSize="18dp"
+
+        />
+
+    <Button
+        android:layout_marginTop="150dp"
+        android:text="Notification"
+        android:textColor="@color/white"
+        android:drawableStart="@drawable/ic_notii"
+        android:background="@drawable/notification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/anoti" />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:text="registration"
+        android:textColor="@color/white"
+        android:background="@drawable/regnn"
+        android:drawableStart="@drawable/ic_regg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/regist" />
+
+
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_student_welcome"
+    android:layout_width="match_parent"
+    android:background="@color/lightgray"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.myecampus.ravi.project_e_campus.StudentWelcome">
+    <TextView
+        android:text="Welcome"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView4"
+        android:textSize="20sp"
+        android:textStyle="normal|bold"
+        android:fontFamily="serif-monospace" />
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/wel" />
+<TextView
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="150dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="We Are About To Add Features Very Soon..."
+    android:textColor="#000" />
+
+</LinearLayout>

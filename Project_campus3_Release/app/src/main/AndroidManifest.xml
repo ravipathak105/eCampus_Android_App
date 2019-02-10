@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.myecampus.ravi.project_e_campus">
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO"  tools:node="remove"/>
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <android:uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" tools:node="remove"/>
+    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ecam"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Homepage"
+            android:label="@string/title_activity_homepage"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".chatttt" />
+        <activity android:name=".Signup" />
+        <activity android:name=".Login" />
+        <activity android:name=".Curricular" />
+        <activity android:name=".ClubActivity" />
+        <activity android:name=".Zest" />
+        <activity android:name=".NewsEvent" />
+        <activity android:name=".Notes" />
+        <activity android:name=".Schedule" />
+        <activity android:name=".Circular" />
+        <activity android:name=".E_Magazines" />
+        <activity android:name=".Facebook" />
+        <activity android:name=".Gmail" />
+        <activity android:name=".Instagram" />
+        <activity android:name=".Linkedin" />
+        <activity android:name=".AdminContent" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".SRMSLocation"
+            android:label="@string/title_activity_srmslocation" />
+        <activity android:name=".StudentSection" />
+        <activity android:name=".FacultySection" />
+        <activity android:name=".Aamod" />
+        <activity android:name=".Techvyom" />
+        <activity android:name=".EquinoxClub" />
+        <activity android:name=".Iluminati" />
+        <activity android:name=".RobotraxClub" />
+        <activity android:name=".LiteraryClub" />
+        <activity android:name=".SynergyClub" />
+        <activity android:name=".AeronauticsClub" />
+        <activity android:name=".DesignClub" />
+        <activity android:name=".PharmaqumicaClub" />
+        <activity android:name=".CommitteList" />
+        <activity android:name=".Screening" />
+        <activity android:name=".ResultZest" />
+        <activity android:name=".Informals" />
+        <activity android:name=".StudentWelcome" />
+        <activity android:name=".StudentSectioLogin" />
+        <activity android:name=".Equinox_Notification" />
+        <activity android:name=".Iluminati_Notification" />
+        <activity android:name=".Robotrax_Notification" />
+        <activity android:name=".Literary_Notification" />
+        <activity android:name=".Synergy_Notification" />
+        <activity android:name=".Aeronautics_Notification" />
+        <activity android:name=".Design_Notification" />
+        <activity android:name=".Pharma_Notification" />
+        <activity android:name=".EventRegistration" />
+        <activity android:name=".AamodResult" />
+        <activity android:name=".AamodScreening" />
+        <activity android:name=".AamodRegister" />
+        <activity android:name=".Finearts" />
+        <activity android:name=".FineArtsCommList" />
+        <activity android:name=".InformalsComList" />
+        <activity android:name=".DanceCommitte" />
+        <activity android:name=".MusicCommitte" />
+        <activity android:name=".DecoCommitte" />
+        <activity android:name=".StageDecoCom" />
+        <activity android:name=".RenaissanceCommitte" />
+        <activity android:name=".AamodCommitte" />
+        <activity android:name=".FirstAidCom"></activity>
+    </application>
+
+</manifest>

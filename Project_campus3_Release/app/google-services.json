@@ -1,0 +1,187 @@
+{
+  "project_info": {
+    "project_number": "297833601011",
+    "firebase_url": "https://chatbot-deb3c.firebaseio.com",
+    "project_id": "chatbot-deb3c",
+    "storage_bucket": "chatbot-deb3c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:297833601011:android:267aa2e04ca633ea",
+        "android_client_info": {
+          "package_name": "com.myecampus.ravi.chatbot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "297833601011-75ft00hghsogh6fqnsecijih8dqa9478.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.myecampus.ravi.chatbot",
+            "certificate_hash": "ee6a1fbf17caa8d9fb18fb8715f17334b365958b"
+          }
+        },
+        {
+          "client_id": "297833601011-d5tejqfaovbjjbo7tr8ns50l1rvrls47.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5BXWPdJBinyQczW5FDSxVLpV_wU0QGkY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "297833601011-d5tejqfaovbjjbo7tr8ns50l1rvrls47.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:297833601011:android:3cd66bb49c4f5fa2",
+        "android_client_info": {
+          "package_name": "com.myecampus.ravi.naviex"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "297833601011-lni6pcqqg4h3ans9f0dq33hbbkdmom4h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.myecampus.ravi.naviex",
+            "certificate_hash": "ee6a1fbf17caa8d9fb18fb8715f17334b365958b"
+          }
+        },
+        {
+          "client_id": "297833601011-d5tejqfaovbjjbo7tr8ns50l1rvrls47.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5BXWPdJBinyQczW5FDSxVLpV_wU0QGkY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "297833601011-d5tejqfaovbjjbo7tr8ns50l1rvrls47.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:297833601011:android:24b3044575d88680",
+        "android_client_info": {
+          "package_name": "com.myecampus.ravi.project_e_campus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "297833601011-6amqoqh0uo40j6nsa9ecfr3qfeu1990n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.myecampus.ravi.project_e_campus",
+            "certificate_hash": "ee6a1fbf17caa8d9fb18fb8715f17334b365958b"
+          }
+        },
+        {
+          "client_id": "297833601011-d5tejqfaovbjjbo7tr8ns50l1rvrls47.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5BXWPdJBinyQczW5FDSxVLpV_wU0QGkY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "297833601011-d5tejqfaovbjjbo7tr8ns50l1rvrls47.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:297833601011:android:c67d57e5dc5cdd7b",
+        "android_client_info": {
+          "package_name": "com.example.ravi.srmsproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "297833601011-dis5m17hupc20nggck1nd51es27sa67e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.myecampus.ravi.srmsproject",
+            "certificate_hash": "ee6a1fbf17caa8d9fb18fb8715f17334b365958b"
+          }
+        },
+        {
+          "client_id": "297833601011-d5tejqfaovbjjbo7tr8ns50l1rvrls47.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5BXWPdJBinyQczW5FDSxVLpV_wU0QGkY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "297833601011-d5tejqfaovbjjbo7tr8ns50l1rvrls47.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
